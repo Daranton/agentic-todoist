@@ -1,4 +1,4 @@
-# Todoist
+# Agentic Todoist
 
 A simple Todo List API built with FastAPI and SQLite, with a Python CLI client, MCP server integration for AI assistants, and Claude Code skills for natural-language task management.
 
@@ -21,8 +21,8 @@ A simple Todo List API built with FastAPI and SQLite, with a Python CLI client, 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Daranton/todoist.git
-cd todoist
+git clone https://github.com/Daranton/agentic-todoist.git
+cd agentic-todoist
 ```
 
 ### 2. Install dependencies
