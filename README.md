@@ -140,7 +140,7 @@ pytest
 ## Project Structure
 
 ```
-todoist/
+agentic-todoist/
 ├── app/
 │   ├── main.py           # FastAPI app
 │   ├── models.py         # SQLAlchemy models
@@ -167,6 +167,7 @@ todoist/
 │                   ├── brain-dump/SKILL.md
 │                   └── triage/SKILL.md
 ├── .mcp.json             # MCP server config
+├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
 └── alembic.ini
