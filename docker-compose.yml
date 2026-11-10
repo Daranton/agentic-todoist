@@ -1,12 +1,10 @@
-version: '3.8'
-
 services:
   web:
     build: .
     working_dir: /todoist
     ports:
-      - "8443:8443"
+      - "8000:8000"
     environment:
       - DATABASE_URL=sqlite:///./todo.db
     volumes:
-      - .:/todoist
+      - .:/todoist:z

@@ -127,6 +127,8 @@ docker-compose up --build
 
 Migrations run automatically before the server starts. No manual setup required.
 
+API available at: `http://localhost:8000`
+
 ---
 
 ## Running Tests

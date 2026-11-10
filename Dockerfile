@@ -11,8 +11,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
-# Expose FastAPI's port (default is 8000)
-EXPOSE 8443
+# Expose FastAPI's port
+EXPOSE 8000
 
 # Command to run the app
-CMD alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8443 --ssl-keyfile=key.pem --ssl-certfile=cert.pem
+CMD alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000
